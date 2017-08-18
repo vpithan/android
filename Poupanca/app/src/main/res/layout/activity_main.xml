@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.m60732.poupanca.MainActivity">
+
+    <ScrollView android:id="@+id/items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_calculate">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/poupanca_logo" />
+
+            <TextView
+                style="@style/lable"
+                android:text="@string/lable_initial_value" />
+
+            <EditText
+                android:id="@+id/text_initial_value"
+                style="@style/text"
+                android:hint="@string/text_initial_value" />
+
+            <TextView
+                style="@style/lable"
+                android:text="@string/lable_monthly_application" />
+
+            <EditText
+                android:id="@+id/text_monthly_application"
+                style="@style/text"
+                android:hint="@string/text_monthly_application" />
+
+            <TextView
+                style="@style/lable"
+                android:text="@string/lable_application_time" />
+
+            <EditText
+                android:id="@+id/text_application_time"
+                style="@style/text"
+                android:hint="@string/text_application_time" />
+
+            <TextView
+                style="@style/lable"
+                android:text="@string/lable_interest_rate" />
+
+            <EditText
+                android:id="@+id/text_interest_rate"
+                style="@style/text"
+                android:hint="@string/text_interest_rate" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="calculate"
+        android:paddingTop="10dp"
+        android:text="@string/button_calculate" />
+</RelativeLayout>

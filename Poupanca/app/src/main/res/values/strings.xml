@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Poupanca</string>
+    <string name="button_calculate">Calculate</string>
+
+    <string name="lable_initial_value">Initial value</string>
+    <string name="text_initial_value">Value in $. Ex: U$ 600.00</string>
+
+    <string name="lable_monthly_application">Monthly Application</string>
+    <string name="text_monthly_application">Ex: U$ 100.00</string>
+
+    <string name="lable_application_time">Application Time</string>
+    <string name="text_application_time">In Months</string>
+
+    <string name="lable_interest_rate">Interest Rate</string>
+    <string name="text_interest_rate" translatable="false">Ex: 0.02</string>
+
+    <string name="warn_invalid_value">Please, input the correct values.</string>
+
+</resources>

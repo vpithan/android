@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Poupanca</string>
+    <string name="button_calculate">Calcular</string>
+    <string name="lable_application_time">Tempo de Aplicação</string>
+    <string name="lable_initial_value">Valor Inicial</string>
+    <string name="lable_interest_rate">Taxa de Juros</string>
+    <string name="lable_monthly_application">Aplicação Mensal</string>
+    <string name="text_application_time">Em meses</string>
+    <string name="text_initial_value">Valor em $. Ex: R$ 1800.00</string>
+    <string name="text_monthly_application">Ex: R$ 300.00</string>
+    <string name="warn_invalid_value">Por favor, insira os valores corretos.</string>
+</resources>
