@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.m60732.table.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow style="@style/row">
+
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/onibus" />
+
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/aviao" />
+
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/bairros" />
+        </TableRow>
+
+        <TableRow style="@style/row">
+
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/turismo" />
+
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/telefone" />
+
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/taxi" />
+        </TableRow>
+
+        <TableRow style="@style/row">
+
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/cultura" />
+
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/feriados" />
+
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/sac" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
