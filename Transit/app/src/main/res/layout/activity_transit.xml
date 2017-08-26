@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="unisc.br.transit.TransitActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_question" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="225dp"
+        android:layout_height="74dp"
+        android:src="@drawable/quiz_transito_banner" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/placa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q11 - Qual o significado desta placa?" />
+
+    <Button
+        style="@style/button_alternative"
+        android:text="Ponte a frente" />
+
+    <Button
+        style="@style/button_alternative"
+        android:text="Estreitamento de pista" />
+
+    <Button
+        style="@style/button_alternative"
+        android:text="Declive acentuado" />
+
+    <Button
+        style="@style/button_alternative"
+        android:text="Redução de largura de veículos" />
+
+    <Button
+        style="@style/button_next"
+        android:text="Próxima pergunta" />
+
+</LinearLayout>
