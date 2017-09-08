@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="unisc.br.intents.Intents">
+
+    <Button
+        android:id="@+id/contacts"
+        style="@style/layout_default"
+        android:onClick="openContats"
+        android:text="@string/button_contacts" />
+
+    <Button
+        android:id="@+id/web"
+        style="@style/layout_default"
+        android:onClick="openWeb"
+        android:text="@string/button_web" />
+
+    <Button
+        android:id="@+id/call"
+        style="@style/layout_default"
+        android:onClick="openCall"
+        android:text="@string/button_call" />
+
+    <Button
+        android:id="@+id/maps_one"
+        style="@style/layout_default"
+        android:onClick="openMapsInStreet"
+        android:text="@string/button_maps_one" />
+
+    <Button
+        android:id="@+id/maps_two"
+        style="@style/layout_default"
+        android:onClick="openMapsInSpecificPosition"
+        android:text="@string/button_maps_two" />
+
+    <Button
+        android:id="@+id/maps_three"
+        style="@style/layout_default"
+        android:onClick="openMapsWithRoute"
+        android:text="@string/button_maps_three" />
+
+    <Button
+        android:id="@+id/pic_iti"
+        style="@style/layout_default"
+        android:onClick="openCamera"
+        android:text="@string/pic_iti" />
+
+    <TextView
+        style="@style/layout_default"
+        android:text="@string/contact_title" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/layout_default"
+            android:text="@string/contact_name_label" />
+
+        <TextView
+            android:id="@+id/contact_name"
+            style="@style/layout_default" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/layout_default"
+            android:text="@string/contact_phone_label" />
+
+        <TextView
+            android:id="@+id/contact_number"
+            style="@style/layout_default" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/ic_photo_black_24dp"></ImageView>
+
+</LinearLayout>
